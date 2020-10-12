@@ -1,4 +1,7 @@
 # Patch Panel
+
+[![Build Status](https://travis-ci.org/Intuity/patchpanel.svg?branch=main)](https://travis-ci.org/Intuity/patchpanel)
+
 Patch Panel is a Python library for solving constrained connectivity between sources and sinks. The sources and sinks can be any arbitrary (hashable) object, and connectivity is returned as a simple list of tuples. This library does not guarantee a unique solution, it simply returns the first legal solution that satisfies all constraints.
 
 ## Installing
